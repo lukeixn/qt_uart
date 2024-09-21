@@ -1,0 +1,21 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201703L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 11
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 2
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    W:/work/qt_app/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ \
+    W:/work/qt_app/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 \
+    W:/work/qt_app/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward \
+    W:/work/qt_app/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include \
+    W:/work/qt_app/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed \
+    W:/work/qt_app/Tools/mingw1120_64/x86_64-w64-mingw32/include
+QMAKE_CXX.LIBDIRS = \
+    W:/work/qt_app/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0 \
+    W:/work/qt_app/Tools/mingw1120_64/lib/gcc \
+    W:/work/qt_app/Tools/mingw1120_64/x86_64-w64-mingw32/lib \
+    W:/work/qt_app/Tools/mingw1120_64/lib
